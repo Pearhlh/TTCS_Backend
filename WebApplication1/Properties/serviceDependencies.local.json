@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.ServiceLinker/locations/australiaeast/connectors/ConnectionStringsAzureDb_4F3D6E9244",
+      "secretStore": "LocalSecretsFile",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/tourishapidbserver/databases/TourishApi_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:AzureDb",
+      "dynamicId": null
+    }
+  }
+}
